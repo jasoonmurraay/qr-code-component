@@ -1,0 +1,35 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+img {
+    width: 90%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+.text {
+    text-align: center;
+    width: 85%;
+}
+
+.body {
+    color: hsl(220, 15%, 55%);
+    margin-bottom: 5%;
+    padding: 0 10px 30px 10px;
+}
